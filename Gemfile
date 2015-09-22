@@ -29,6 +29,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Added this during React tutorial
 gem 'react-rails', github: 'reactjs/react-rails', branch: 'master'
 gem 'showdown-rails'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+gem 'marked-rails'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
