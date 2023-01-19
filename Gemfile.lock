@@ -1,14 +1,13 @@
 GIT
-  remote: git://github.com/reactjs/react-rails.git
-  revision: d7ecd8b534707be93dc74ed4d3ab481058ea56b6
+  remote: https://github.com/reactjs/react-rails.git
+  revision: 35f9397fc9c0a33f5b03a1e4972028d394a2f219
   branch: master
   specs:
-    react-rails (1.3.1)
+    react-rails (2.6.2)
       babel-transpiler (>= 0.7.0)
-      coffee-script-source (~> 1.8)
       connection_pool
       execjs
-      rails (>= 3.2)
+      railties (>= 3.2)
       tilt
 
 GEM
@@ -53,7 +52,7 @@ GEM
     autoprefixer-rails (6.0.3)
       execjs
       json
-    babel-source (5.8.26)
+    babel-source (5.8.35)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
@@ -71,7 +70,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
-    connection_pool (2.2.0)
+    connection_pool (2.3.0)
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.6.0)
@@ -97,7 +96,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
-    rack (1.6.4)
+    rack (1.6.13)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.3)
